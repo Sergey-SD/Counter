@@ -1,0 +1,33 @@
+.parent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.bigBox {
+  	background-color: orange;
+  	border-radius: 5px;
+  	position: fixed;
+  	font-size: 80px;
+  	display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40%;
+    left: 45%;
+
+
+}
+
+.smallBox {
+  	background-color: white;
+  	display: block;
+  	margin: 10px 5px;
+  	position: relative;
+
+}
